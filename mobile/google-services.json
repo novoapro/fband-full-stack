@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "451190490854",
+    "firebase_url": "https://fband-full.firebaseio.com",
+    "project_id": "fband-full",
+    "storage_bucket": "fband-full.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451190490854:android:107a64672f46fa59",
+        "android_client_info": {
+          "package_name": "manpdev.com.fbandfull"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451190490854-tf3213btas6mhmv8ft17jb2ds8r3ako5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "manpdev.com.fbandfull",
+            "certificate_hash": "14C77B6036E8458F45DEF78E6F83F0FECA120924"
+          }
+        },
+        {
+          "client_id": "451190490854-c8s5pjn95t2fafgbe2g0p4rfhscnjt6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjALuQ68ZeKBMujKna0FJz4oKCAZDMxEI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451190490854-c8s5pjn95t2fafgbe2g0p4rfhscnjt6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

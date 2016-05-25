@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="manpdev.com.fbandfull.UserActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:id="@+id/tv_user_name"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_user"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        tools:layout_constraintLeft_creator="0"
+        app:layout_constraintTop_toTopOf="@+id/activity_user"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintTop_creator="0" />
+
+    <Button
+        android:text="SIGN OUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="56dp"
+        android:id="@+id/bn_sign_out"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_user"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        tools:layout_constraintLeft_creator="0"
+        app:layout_constraintTop_toBottomOf="@+id/tv_user_name"
+        android:layout_marginTop="24dp"
+        tools:layout_constraintTop_creator="0" />
+</android.support.constraint.ConstraintLayout>
